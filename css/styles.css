@@ -390,7 +390,11 @@ h3 {
 }
 
 .agreement-group {
-  position: relative;
+}
+
+.agreement-terms-label {
+  display: inline-flex;
+  align-items: center;
 
   padding: 0 12px;
   margin-top: 20px;
@@ -411,13 +415,9 @@ h3 {
 }
 
 .checkbox-icon {
-  position: absolute;
-  top: 50%;
-  transform: translatey(-6px);
-  left: 12px;
-
   width: 16px;
   height: 15px;
+  margin-right: 8px;
 
   border: 2px solid var(--secondary-text-color);
   border-radius: 4px;
