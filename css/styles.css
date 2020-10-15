@@ -86,6 +86,7 @@ body {
   height: 50px;
   border-radius: 4px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .title {
@@ -386,6 +387,12 @@ h3 {
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
+}
+
+.form-icon {
+  fill: #000000;
+  width: 18px;
+  height: 18px;
 }
 
 /* ============ END HERO ============ */
