@@ -77,38 +77,60 @@
 
             <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
 
-            <form action="" method="GET" class="contact-form">
-              <label for="user-name">Имя</label>
-              <svg class="form-icon">
-                <use href="./images/symbol-defs.svg#icon-person-icon"></use>
-              </svg>
-              <input type="text" name="" id="user-name" class="contact-input" minlength="2" />
+            <form action="#" method="GET" class="contact-form">
+              <div class="form-field-wrapper">
+                <label class="form-field"
+                  >Имя
+                  <input type="text" name="user-name" class="contact-input" minlength="2" />
+                  <svg class="form-icon">
+                    <use href="./images/symbol-defs.svg#icon-person-icon"></use>
+                  </svg>
+                </label>
+              </div>
 
-              <label for="user-phone">Телефон</label>
-              <svg class="form-icon">
-                <use href="./images/symbol-defs.svg#icon-phone-icon"></use>
-              </svg>
-              <input type="tel" name="user-phone" id="user-phone" class="contact-input" />
-              <label for="user-email">Почта</label>
-              <svg class="form-icon">
-                <use href="./images/symbol-defs.svg#icon-email-icon"></use>
-              </svg>
-              <input type="email" name="user-email" id="user-email" class="contact-input" />
-              <label for="comment">Комментарий</label>
-              <textarea
-                name="comment"
-                class="comment-field"
-                id="comment"
-                placeholder="Введите текст"
-                cols="30"
-                rows="10"
-              ></textarea>
+              <div class="form-field-wrapper">
+                <label class="form-field"
+                  >Телефон
+                  <input type="tel" name="user-phone" class="contact-input" />
+                  <svg class="form-icon">
+                    <use href="./images/symbol-defs.svg#icon-phone-icon"></use>
+                  </svg>
+                </label>
+              </div>
+
+              <div class="form-field-wrapper">
+                <label class="form-field">
+                  Почта
+                  <input type="email" name="user-email" class="contact-input" />
+                  <svg class="form-icon">
+                    <use href="./images/symbol-defs.svg#icon-email-icon"></use>
+                  </svg>
+                </label>
+              </div>
+
+              <label for="comment" class="form-field">
+                Комментарий
+                <textarea
+                  name="comment"
+                  class="comment-field"
+                  id="comment"
+                  placeholder="Введите текст"
+                  cols="30"
+                  rows="10"
+                >
+                </textarea>
+              </label>
 
               <div class="agreement-group">
-                <input type="checkbox" name="" class="contact-form-radio" id="agreement" />
-                <label for="agreement" class="agreemant-terms_label"
-                  >Соглашаюсь с рассылкой и принимаю <span class="agreemant-terms"> Условия договора</span></label
-                >
+                <label for="agreement" class="agreemant-terms_label">
+                  <input type="checkbox" name="agreement" class="checkbox-input" id="agreement" />
+                  <svg class="checkbox-icon">
+                    <use href="./images/symbol-defs.svg#icon-check"></use>
+                  </svg>
+
+                  Соглашаюсь с рассылкой и принимаю
+                  <span class="agreemant-terms"> Условия договора</span>
+                </label>
               </div>
 
               <button type="submit" class="submit-button">Отправить</button>
@@ -494,7 +516,7 @@
 
           <div class="form-wraper">
             <h2 class="title">Подпишитесь на рассылку</h2>
-            <form action="" method="GET" class="subscribe-form">
+            <form action="#" method="GET" class="subscribe-form">
               <input type="email" class="subscribe-form-input" placeholder="E-mail" />
               <button type="submit" class="subscribe-button">Подписаться</button>
             </form>
