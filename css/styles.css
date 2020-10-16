@@ -758,7 +758,7 @@ h3 {
 
 .social {
   padding-top: 12px;
-  margin-left: 70px;
+  margin-left: 85px;
 }
 
 .footer .social-media {
@@ -790,6 +790,11 @@ h3 {
 .form-wraper {
   margin-left: 93px;
   padding-top: 12px;
+}
+
+.subscribe-form {
+  display: inline-flex;
+  align-items: center;
 }
 
 .subscribe-form-input {
