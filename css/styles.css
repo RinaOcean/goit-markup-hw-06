@@ -804,7 +804,9 @@ h3 {
 }
 
 .subscribe-button {
-  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -825,11 +827,8 @@ h3 {
 }
 
 .subscribe-button::after {
-  position: absolute;
-  top: 13px;
-  right: 28px;
   content: "";
-  display: inline-block;
+
   width: 24px;
   height: 24px;
   background-image: url("../images/icon-send.svg");
