@@ -310,10 +310,6 @@ h3 {
   color: var(--accent-color);
 }
 
-.contact-input:not(:last-child) {
-  margin-bottom: 10px;
-}
-
 .form-title {
   font-weight: 700;
   font-size: 20px;
@@ -349,6 +345,7 @@ h3 {
 
 .form-field-wrapper {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .form-icon {
